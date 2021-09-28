@@ -1,6 +1,9 @@
 # Feature-Engineering (keep uploading)
-**Book : Feature Engineering Made Easy by Sinan Ozdemir, Divya Susarla**
 
+## Resources
+Book : Feature Engineering Made Easy by Sinan Ozdemir, Divya Susarla
+
+## Content
 ### Undestanding Data: 
 Nominal level, Ordinal level, Interval level, Ratio level
 
