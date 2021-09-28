@@ -1,20 +1,17 @@
 # Feature-Engineering (keep uploading)
-Book : Feature Engineering Made Easy
+**Book : Feature Engineering Made Easy by Sinan Ozdemir, Divya Susarla**
 
-Sinan Ozdemir, Divya Susarla
-
-1. Undestanding Data:
+### Undestanding Data: 
 Nominal level, Ordinal level, Interval level, Ratio level
 
-2. Feature Improvement
+### Feature Improvement
 *  Cleaning Datasets.
 *  Identifying and dealing with missing values in data
 *  Standardization and normalization: Z-score standardization, min-max scaling , row normalization
 
-3. Feature Construction :  
+### Feature Construction :  
 * Imputing categorical features
 * Encoding categorical variables
 * Extending numerical features
-.........
 
 
