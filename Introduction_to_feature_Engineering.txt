@@ -1,0 +1,54 @@
+What is feature Engineering
+a process of transforming data into features to better represent the underlying problem and enhancing ML performance.
+
+A feature is an attribute of data that is meaningful to the machine learning process
+
+####
+Steps to feature enginerring: overview
+
+1. Obtain a baseline performance of the machine learning model before applying
+any feature engineering procedures
+
+2. Apply feature engineering procedures
+
+3. For each application of feature engineering, obtain a performance measure and
+compare it to our baseline performance
+
+4. if change in performance precedes a threshold, apply into ML pipeline
+
+5. This change in performance will usually be measured as a percentage (if the baseline went from 40% accuracy to 76% accuracy, that is a 90% improvement)
+
+####
+Baseline for evaluating ML pipeline performnce:
+
+Evaluating supervised learning algorithms:
+
+#for classification
+
+from sklearn.linear_model import LogisticRegression
+from sklearn.model_selection import cross_val_score
+X = some_data_in_tabular_format
+y = response_variable
+lr = LinearRegression()
+scores = cross_val_score(lr, X, y, cv=5, scoring='accuracy')
+
+#For regression
+
+from sklearn.linear-model import LogisticRegression
+from sklearn.model_selection import cross_val_score
+X = some_data_in_tabular_format
+y = response_variable
+lr = LinearRegression()
+scores = cross_val_score(lr, X, y, cv=5, scoring='mean_squared_error')
+
+#Evaluating unsupervised learning algorithms:
+
+we will usually utilize the silhouette coefficient (a measure of
+separation and cohesion of clusters between -1 and 1)
+
+attributes = tabular_data
+cluster_labels = outputted_labels_from_clustering
+from sklearn.metrics import silhouette_score
+silhouette_score(attributes, cluster_labels)
+
+	
